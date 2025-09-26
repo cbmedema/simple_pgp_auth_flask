@@ -1,7 +1,7 @@
 #!/bin/bash
 num=0
 chr=""
-dir=/home/bryce/website/encrypted/src/scripts
+dir="$(pwd)/scripts"
 chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 for i in {1..64}; do 
     # generate a 8 byte unsigned number that is quite random
